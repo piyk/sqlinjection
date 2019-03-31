@@ -1,4 +1,6 @@
 1. Install Apache and Mysql  
+2. Edit php.ini 
+    error_reporting = E_ERROR
 2. Create database
     mysql> create database db;
     mysql> CREATE TABLE `users`( `id` INT NOT NULL AUTO_INCREMENT,`email` VARCHAR(45) NULL,`password` VARCHAR(45) NULL,PRIMARY KEY (`id`));
