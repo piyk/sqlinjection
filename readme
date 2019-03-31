@@ -1,0 +1,9 @@
+1. Install Apache and Mysql  
+2. Create database
+    mysql> create database db;
+    mysql> CREATE TABLE `users`( `id` INT NOT NULL AUTO_INCREMENT,`email` VARCHAR(45) NULL,`password` VARCHAR(45) NULL,PRIMARY KEY (`id`));
+    mysql> insert into users (email,password) values ('admin@admin.com','abc123');
+    mysql> insert into users (email,password) values ('admin@admin.com',md5('abc123'));
+3. Copy login.php and welcome.php to www directory
+4. Browse localhost/login.php and test it
+
