@@ -11,7 +11,7 @@
    
    <body>
       <h1>Welcome <?php echo $user_check; ?></h1> 
-      <h2><a href = "login.php">Sign Out</a></h2>
+      <h2><a href = "logout.php">Sign Out</a></h2>
    </body>
    
 </html>
